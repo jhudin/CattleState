@@ -1,0 +1,3 @@
+pyuic5 -x RegistroAnimal.ui -o RegistroAnimal.py
+imagen
+pyrcc5 fondo.qrc -o fondo_rc.py

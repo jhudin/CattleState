@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="Fondos">
+    <file>Imagenes/green-leaves-pattern-background-flat-lay-nature-dark-green-tone-background_9635-1311.jpg</file>
+    <file>Imagenes/pexels-photo-808510.jpeg</file>
+  </qresource>
+  <qresource prefix="iconos">
+    <file>Imagenes/reportsOff.png</file>
+    <file>Imagenes/report-icon-18Off.png</file>
+    <file>Imagenes/registrarOff.png</file>
+    <file>Imagenes/magnifying-glassOff.png</file>
+    <file>Imagenes/coinOff.png</file>
+    <file>Imagenes/112431Off.png</file>
+    <file>Imagenes/calvesSoloOff.png</file>
+    <file>Imagenes/buildingsOff.png</file>
+    <file>Imagenes/LogoOff.png</file>
+    <file>Imagenes/cria-recria-engorda-cria2.png</file>
+    <file>Imagenes/ubicacion.png</file>
+    <file>Imagenes/signs.png</file>
+    <file>Imagenes/magnifying-glass.png</file>
+    <file>Imagenes/reports.png</file>
+    <file>Imagenes/buildings.png</file>
+    <file>Imagenes/Logo.png</file>
+    <file>Imagenes/report-icon-18.png</file>
+    <file>Imagenes/112431.png</file>
+    <file>Imagenes/coin.png</file>
+    <file>Imagenes/calvesSolo.png</file>
+    <file>Imagenes/calves.png</file>
+    <file>Imagenes/granja.ico</file>
+    <file>Imagenes/registrar.png</file>
+    <file>Imagenes/Logo.jpg</file>
+    <file>Imagenes/Logo1.2.ico</file>
+    <file>Imagenes/user.png</file>
+  </qresource>
+</RCC>

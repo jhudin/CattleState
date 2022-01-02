@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="imagenes">
+    <file>Imagenes/cattle_pasture_cow_farm_animal_green_grass_rural-1226729.jpg</file>
+    <file>Imagenes/cattle_grazing_silhouettes_farm_ranch_pasture_cow_livestock-905408.jpg</file>
+    <file>Imagenes/user.png</file>
+  </qresource>
+</RCC>

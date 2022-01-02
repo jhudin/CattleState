@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>354</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{font: 26pt Tw Cen MT Condensed;
+font-size:18px;
+background:rgba(47, 53, 66, .87);
+}
+#title{
+border-radius:1px;
+background:rgba(47, 53, 66, 1);
+font-size:22px;
+border-top-left-radius:7px;
+border-top-right-radius: 7px;
+color:white;
+border:1px solid black;
+}
+
+#centralwidget{
+	background-image: url(:/Fondos/Imagenes/green-leaves-pattern-background-flat-lay-nature-dark-green-tone-background_9635-1311.jpg);
+}
+#frame{
+background:rgba(47, 53, 66, .95);
+}
+QFrame{
+border:1px solid black;
+background:rgba(47, 53, 66, .95);
+border-bottom-left-radius:7px;
+border-bottom-right-radius: 7px;
+}
+#line{
+background:black;}
+
+QLabel{
+color:white;
+background:transparent;
+background:transparent;
+border:none;
+
+}
+
+QPushButton{
+background:rgba(16, 172, 132,1.0);
+color:black;
+border-radius:3px;
+
+}
+QPushButton:hover{
+color:rgba(200, 214, 229,1.0);
+border-radius:5px;
+background:rgba(87, 101, 116,1.0);
+}
+
+QLineEdit{
+color:white;
+background:transparent;
+border:none;
+
+border-bottom:1px solid white;
+}
+QComboBox{
+color:white;
+background:transparent;
+border:none;
+
+border-bottom:1px solid white;;
+
+}
+QSpinBox{
+color:white;
+background:transparent;
+border:none;
+
+border-bottom:1px solid white;
+}
+#spinBox{
+color:white;
+font:center;}
+
+QTimeEdit{
+color:white;
+background:transparent;
+border:none;
+
+border-bottom:1px solid white;
+}
+#foto{
+border:1px solid white;}
+QRadioButton{
+color:white;
+}
+QTabBar{
+font: 26pt Tw Cen MT Condensed;
+font-size:23px;
+color:rgba(127, 140, 141,.9);
+background:transparent;
+
+}
+QTabBar::tab:hover{
+color:rgba(47, 53, 66, 1);
+background:rgba(127, 140, 141,.9);
+}
+QTabBar::tab{
+background:rgba(47, 53, 66, .87);
+border-right:1px solid #34495e;
+border-top-left-radius:7px;
+border-top-right-radius: 7px;
+}
+QTabBar::tab:selected {
+font: 26pt Tw Cen MT Condensed;
+font-size:23px;
+color:white;
+background:rgba(127, 140, 141,.9);
+}
+QCalendarWidget{
+background:rgba(127, 140, 141,.9);}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;REGISTRAR HATO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_2"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_4"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>TELEFONO DE CONTACTO </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>UBICACIÓN-DIRECCION</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>NOMBRE HATO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>CORREO DE CONTACTO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>NOMBRE ENCARGADO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_5"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>REGISTRAR</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
